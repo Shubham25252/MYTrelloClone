@@ -1,0 +1,53 @@
+.container {
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .container:hover {
+    transform: scale(1.05);
+    background-color: #e9eff5;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 12px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #1c87c9;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #145a8b;
+  }
+  
+  span {
+    color: #1c87c9;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  span:hover {
+    color: #145a8b;
+  }
+  
